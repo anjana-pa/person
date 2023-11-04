@@ -33,11 +33,16 @@ class PersonalDetails extends StatelessWidget {
           color: Colors.white,
         ),
         Card(
+          margin: EdgeInsets.symmetric(horizontal: 30),
           child: ListTile(
               leading: Icon(Icons.phone_android_sharp),
               title: Text('9876543210')),
         ),
+        SizedBox(
+          height: 10,
+        ),
         Card(
+          margin: EdgeInsets.symmetric(horizontal: 30),
           child: ListTile(
             leading: Icon(Icons.email_sharp),
             title: Text('anjana@gmail.com'),
